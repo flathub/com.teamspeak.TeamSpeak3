@@ -49,12 +49,12 @@ modules:
 #          url: https://teamspeak.com/en/downloads/#ts3client
 #          version-pattern: https://files.teamspeak-services.com/releases/client/3\.\d+\.\d+/TeamSpeak3-Client-linux_amd64-3\.(\d+\.\d+).run
 #          url-template: https://files.teamspeak-services.com/releases/client/3.$version/TeamSpeak3-Client-linux_amd64-3.$version.run
-#        x-checker-data:
-#          type: html
-#          url: http://versions.teamspeak.com/ts3-client-2
-#          version-pattern: "\u0006stable\u0010.*3\\.(\\d+\\.\\d+)\u0012"
-#          encoding-error: ignore  # requires https://github.com/flathub-infra/flatpak-external-data-checker/pull/410
-#          url-template: https://files.teamspeak-services.com/releases/client/3.$version/TeamSpeak3-Client-linux_amd64-3.$version.run
+        x-checker-data:
+          type: html
+          url: http://versions.teamspeak.com/ts3-client-2
+          version-pattern: "\u0006stable\u0010.*3\\.(\\d+\\.\\d+)\u0012"
+          encoding-error: ignore  # requires https://github.com/flathub-infra/flatpak-external-data-checker/pull/410
+          url-template: https://files.teamspeak-services.com/releases/client/3.$version/TeamSpeak3-Client-linux_amd64-3.$version.run
       - type: script
         dest-filename: apply_extra
         commands:
