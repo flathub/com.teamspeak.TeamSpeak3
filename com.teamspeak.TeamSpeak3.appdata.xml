@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>com.teamspeak.TeamSpeak3</id>
   <launchable type="desktop-id">com.teamspeak.TeamSpeak3.desktop</launchable>
-  <name>TeamSpeak3</name>
+  <name>TeamSpeak 3</name>
   <summary>TeamSpeak VoIP application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>

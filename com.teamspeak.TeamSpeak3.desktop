@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=TeamSpeak3
+Name=TeamSpeak 3
 Comment=TeamSpeak 3 VoIP application
 Exec=teamspeak3 %u
 MimeType=x-scheme-handler/ts3server;
